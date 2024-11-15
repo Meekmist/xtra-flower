@@ -156,7 +156,10 @@ p{
 
 .next .text{
     padding-right: 100px;
+    border-bottom{1px,solid,
+        
 }
+    
 .btn3{
     width: 150px;
     height: 60px;
