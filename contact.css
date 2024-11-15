@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 80%;
+    margin-top: 30px;
+}
+
+.header {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.header div {
+    text-align: center;
+}
+
+.header i {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.header span {
+    font-size: 25px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.form input, .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.btn809{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    font-size: 19px;
+    border: none;
+    padding: 10px 20px;
+    transition: 0.2s ease-in-out;
+}
+.btn809:hover{
+    transform: scale(1.2);
+}
+
+body{
+    background: #f0f0f0;
+}
+.navbar{
+    position: fixed;
+    transition: 0.5s,ease-in-out;
+    background: white;
+    height: 100px;
+}
+.nav-link{
+    color: black;
+    
+}
+
+.dropdown-menu a{
+    background: black;
+    color: white;
+}
+.dropdown-menu a:hover{
+    color: green;
+    background: black;
+}
+.navbar .navbar-brand{
+    font-size: 35px;
+    position: relative;
+    padding-left:60px;
+    
+ }
+ .nav-item:hover{
+    color: green;
+ }
+.collapse{
+    font-size: 20px;
+    padding-left: 30px;
+}
+.navbar-nav{
+    margin-left: 200px;
+}
+.nav-item {
+    color: #94a4a4;
+    gap: 50px;
+    font-size: 16px;
+    font-weight: 660;
+}
+.map-image{
+    background: url(maps.jpg);
+    background-size: cover;
+}
+.icon{
+    color: white;
+    font-size: 4px;
+    width: 80px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: green;
+}
+.contact-bar{
+    display: flex;
+    width: 500px;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    gap: 26px;
+    list-style: none;
+    font-size: 28px;
+    /* padding-top: 20px; */
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+footer {
+    width: 98.8vw;
+    margin-top: 100px;
+    background-color: gainsboro;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    line-height:15px;
+}
+
+.logo img {
+    width: 250px;
+}
+.social{
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+.iconss-box{
+    border: none ;
+    width: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.iconsss-box{
+    border: none ;
+
+    width: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btn9:hover{
+    background: green;
+    color: white;
+}
+.hours h4{
+    font-size: 28px;
+    color: green;
+    padding-bottom: 7px;
+}
+.address h4{
+    padding-bottom: 7px;
+    font-size: 28px;
+    color: green;
+}
+.contact h4{
+    padding-bottom: 7px;
+    font-size: 28px;
+    color: green;
+}
+.hours p{
+    font-size: 18px;
+    color: black;
+}
+.address p{
+    font-size: 18px;
+    color: black;
+}
+.contact p{
+    font-size: 18px;
+    color: black;
+}
+.hours{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contact, .address, .hours, .social {
+    text-align: left;
+    margin-right: 30px;
+    
+}
+
+.social  {
+    margin: 10px;
+    color: #333;
+}
+
+.iconss-box :hover {
+    color: #007bff;
+}
+.iconsss-box :hover{
+    color: red;
+}
